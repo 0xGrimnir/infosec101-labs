@@ -61,3 +61,9 @@ When analyzing malware, it often needs to be done on a system that can actually 
     - GMail also forbids password protected files with encrypted file names.
     - I often use "inf3cted" in lieu of "infected."
   - Make sure to include the hash results in your archive, containing the SHA256 checksum generated for your sample. You can either include it as a file, or as an archive note with WinRAR.
+
+Whew! Don't you feel a little bit safer already, knowing how to properly handle malicious samples? Here are a few additional things to consider when playing around with malware:
+
+- If you're using virtual machines as part of your malware analysis toolkit - and why wouldn't you be, as they make excellent analysis environments - make sure you learn the fine art of "snapshotting." This will allow you to easily roll back to a non-infected state once you're finished with your analysis work.
+- Also, you need to get in the habit of making sure that your analysis environment has file extensions enabled, and hidden system files are being shown. Make sure to look into editing the registry to enable visibility of ```super hidden``` folders and files, as well! (Shout out to [@SageFedora](https://twitter.com/sagefedora) for this tip.) If you snapshot your virtual analysis environments correctly, all of this will be ready to go each and every time.
+- Most importantly: Research. Do not just spin up a virtual machine and drop some malware in it to start playing with. Research how to properly build a safe, sterile analysis environment to minimize the risk of damaging your host system. There are plenty of guides on how to develop a safe analysis environment, and I'll be creating one of my own eventually as well - to accompany this Information Security 101 series. (Albeit, that'll probably go along with a future series I have planned for Malware Analysis. So stay tuned!)
