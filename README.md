@@ -44,7 +44,7 @@ When analyzing malware, it often needs to be done on a system that can actually 
   - If your suspected malicious file is "**sample.exe**" it should now look like "**sample.exe.vir**".
   - The .vir extension is a pretty common extension to go with for this task, as it is not associated with any Windows program, and therefore cannot be accidentally executed.
 - When working on samples outside of your analysis lab, antimalware solutions may gobble up your sample and send it to quarantine. White-list the .vir extension, to prevent the installed antimalware solution from interfering with your sample.
-- Practice paitence. Do not rush out and immediately submit the sample to VirusTotal. Malware can contain sensitive information, so submitting it to the public could put you at risk. Instead...
+- Practice patience. Do not rush out and immediately submit the sample to VirusTotal. Malware can contain sensitive information, so submitting it to the public could put you at risk. Instead...
 - Fingerprint the sample. We do this with hashes. Currently, VirusTotal accepts MD5, SHA1 and SHA256. I typically use SHA256.
   - On Windows systems, you can use PowerShell for this task.
     - ```Get-FileHash C:\Path\To\Sample\sample.exe.vir```
