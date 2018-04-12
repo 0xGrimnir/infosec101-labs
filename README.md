@@ -1,4 +1,4 @@
-# Information Security 101: Hands-On Experience with Information Security
+# Information Security 101: Practical Experience (Labs)
 
 ### Part of my Information Security 101 Series.
 - [Information Security 101: The Reading List](https://github.com/MalwareJedi/infosec101-reading)
