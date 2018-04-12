@@ -51,3 +51,12 @@ When analyzing malware, it often needs to be done on a system that can actually 
   - On Linux, you can use the sha256sum utility.
   - It may look something like this: ```1e55abb94951cedc548fd8d67bd1b50476808f1d0ae72f9842181761ff92f83f```
     - Go ahead, run that through VirusTotal. What does VirusTotal tell you about this hash?
+  - Hashing the suspected file allows you to search the VirusTotal database (and other similar sites), for a match. If one is found, you have more information about your malware. If not, you didn't run the risk of accidentally submitting a file that may contain sensitive information. This also can tell you that you may have targeted threats to deal with.
+- Archive the file for transportation. Don't forget the password.
+  - Typically, this is done with (.zip)ing the file. I also, occasionally, (.rar) it.
+  - Only put one sample per archive, if at all possible.
+  - When archiving your sample, make sure you password protect the archive. And if you're sending it via email, you may want to encrypt the file names.
+    - Typically "infected" is the industry-standard password when archiving a malware sample.
+    - Unfortunately, certain services (GMail included), know to look for zipped archives and automatically test "infected" as the password. Thus blocking the file as malicious.
+    - GMail also forbids password protected files with encrypted file names.
+    - I often use "inf3cted" in lieu of "infected."
