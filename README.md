@@ -45,12 +45,12 @@ When analyzing malware, it often needs to be done on a system that can actually 
   - The .vir extension is a pretty common extension to go with for this task, as it is not associated with any Windows program, and therefore cannot be accidentally executed.
 - When working on samples outside of your analysis lab, antimalware solutions may gobble up your sample and send it to quarantine. White-list the .vir extension, to prevent the installed antimalware solution from interfering with your sample.
 - Practice patience. Do not rush out and immediately submit the sample to VirusTotal. Malware can contain sensitive information, so submitting it to the public could put you at risk. Instead...
-- Fingerprint the sample. We do this with hashes. Currently, VirusTotal accepts MD5, SHA1 and SHA256. I typically use SHA256.
+- Fingerprint the sample. We do this with hashing. Currently, VirusTotal accepts MD5, SHA1 and SHA256. I typically use SHA256.
   - On Windows systems, you can use PowerShell for this task.
     - ```Get-FileHash C:\Path\To\Sample\sample.exe.vir```
   - On Linux, you can use the sha256sum utility.
   - It may look something like this: ```1e55abb94951cedc548fd8d67bd1b50476808f1d0ae72f9842181761ff92f83f```
-    - Go ahead, run that through VirusTotal. What does VirusTotal tell you about this hash?
+    - Go ahead, run that through VirusTotal. What does VirusTotal tell you about this checksum?
   - Hashing the suspected file allows you to search the VirusTotal database (and other similar sites), for a match. If one is found, you have more information about your malware. If not, you didn't run the risk of accidentally submitting a file that may contain sensitive information. This also can tell you that you may have targeted threats to deal with.
 - Archive the file for transportation. Don't forget the password.
   - Typically, this is done with (.zip)ing the file. I also, occasionally, (.rar) it.
@@ -60,4 +60,4 @@ When analyzing malware, it often needs to be done on a system that can actually 
     - Unfortunately, certain services (GMail included), know to look for zipped archives and automatically test "infected" as the password. Thus blocking the file as malicious.
     - GMail also forbids password protected files with encrypted file names.
     - I often use "inf3cted" in lieu of "infected."
-  - Make sure to include the hash in your archive, containing the SHA256 hash generated for your sample. You can either include it as a file, or as an archive note with WinRAR.
+  - Make sure to include the hash results in your archive, containing the SHA256 checksum generated for your sample. You can either include it as a file, or as an archive note with WinRAR.
