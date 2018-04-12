@@ -60,3 +60,4 @@ When analyzing malware, it often needs to be done on a system that can actually 
     - Unfortunately, certain services (GMail included), know to look for zipped archives and automatically test "infected" as the password. Thus blocking the file as malicious.
     - GMail also forbids password protected files with encrypted file names.
     - I often use "inf3cted" in lieu of "infected."
+  - Make sure to include the hash in your archive, containing the SHA256 hash generated for your sample. You can either include it as a file, or as an archive note with WinRAR.
