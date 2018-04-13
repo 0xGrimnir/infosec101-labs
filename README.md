@@ -16,7 +16,7 @@
 - [Overview]()
 - [Lab I: Handling Malicious Software]()
 - [Lab II: Web Application Security with OWASP]()
-- [Lab III: Digital Forensics: The Order of Volatility]()
+- [Lab III: Digital Forensics: Understanding the Order of Volatility]()
 - [Additional Resources for Hands-On Experience]()
 
 ---
