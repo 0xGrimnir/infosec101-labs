@@ -93,4 +93,4 @@ As far as my personal pick goes: WebGoat is a favorite of mine. Security Shepher
 
 --- 
 
-### Lab III: Understanding the Order of Volatility
+### Lab III: An Introduction to Penetration Testing
