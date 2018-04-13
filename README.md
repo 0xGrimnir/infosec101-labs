@@ -14,10 +14,11 @@
 
 ## Table of Contents
 - [Overview]()
-- [Lab I: Handling Malicious Software]()
+- [Lab I: Handling Malicious Software](#lab-i-handling-malicious-software)
 - [Lab II: Web Application Security with OWASP]()
-- ADDITIONAL LABS TO COME IN THE FUTURE - STAY TUNED!
 - [Additional Resources for Hands-On Experience]()
+
+#### Additional labs will be added to this document over time, so keep your eye out for more hands on practice.
 
 ---
 
@@ -95,3 +96,21 @@ As far as my personal pick goes: WebGoat is a favorite of mine. Security Shepher
 
 ### Additional Hands-On Experience
 
+Over time, additional labs will be added to this list to play around with. Until then, there are still a few resources out there for people who are interested in honing their skills.
+
+Many of the books listed in the Reading List section of this Information Security 101 series contain labs. Some of my favorite labs from the reading list came from books like Penetration Testing, by Georgia Weidman, Attacking Network Protocols, by James Forshaw, and Practical Malware Analysis, by Andrew Honig and Michael Sikorski. 
+
+In addition to this, here are some websites worth checking out.
+
+| Website | URL | Additional Information |
+| :---: | :---: | :---: |
+| Hack the Box | [https://www.hackthebox.eu/](https://www.hackthebox.eu/) | Good practice for penetration testing, and OSCP prep. |
+| PentesterLab | [https://pentesterlab.com/](https://pentesterlab.com/) | Several free vulnerable ISOs from learning specific exploits and techniques |
+| VulnHub | [https://www.vulnhub.com/](https://www.vulnhub.com/) | Lots of virtual machines and labs for practicing your offensive security skills. |
+
+And for those of you with a bit more knowledge, ready to try your hand at real world projects:
+
+| Website | URL | Additional Information |
+| :---: | :---: | :---: |
+| Bug Crowd | [https://www.bugcrowd.com/](https://www.bugcrowd.com/) | |
+| HackerOne | [https://www.hackerone.com/](https://www.bugcrowd.com/) | |
