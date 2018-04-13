@@ -67,3 +67,30 @@ Whew! Don't you feel a little bit safer already, knowing how to properly handle 
 - If you're using virtual machines as part of your malware analysis toolkit - and why wouldn't you be, as they make excellent analysis environments - make sure you learn the fine art of "snapshotting." This will allow you to easily roll back to a non-infected state once you're finished with your analysis work.
 - Also, you need to get in the habit of making sure that your analysis environment has file extensions enabled, and hidden system files are being shown. Make sure to look into editing the registry to enable visibility of ```super hidden``` folders and files, as well! (Shout out to [@SageFedora](https://twitter.com/sagefedora) for this tip.) If you snapshot your virtual analysis environments correctly, all of this will be ready to go each and every time.
 - Most importantly: Research. Do not just spin up a virtual machine and drop some malware in it to start playing with. Research how to properly build a safe, sterile analysis environment to minimize the risk of damaging your host system. There are plenty of guides on how to develop a safe analysis environment, and I'll be creating one of my own eventually as well - to accompany this Information Security 101 series. (Albeit, that'll probably go along with a future series I have planned for Malware Analysis. So stay tuned!)
+
+--- 
+
+## Lab II: Web Application Security with OWASP
+
+Moving away from malware a bit, let's take a look at web application security. 
+
+In 2018, the world is web-centric. It's easy to understand, then, why web application security is important. No organization may possibly understand that more than OWASP. And they make that known with the release of their documentation, vulnerable applications (for testing), and lists! In this lab, I'm going to introduce you to several of the vulnerable web applications that OWASP has released, but it'll be up to you to pick one and go through it. So, let's dive right in...
+
+| Application Name | OWASP Designation | More Information|
+| :---: | :---: | :---: |
+| Hackademic Challenges Project | Online | [More information.](http://hackademic1.teilar.gr) |
+| Juice Shop | Online | [More information.](https://juice-shop.herokuapp.com/) |
+| Broken Web Applications Project (BWA) | Virtual Machine | [More information.](http://code.google.com/p/owaspbwa/wiki/ProjectSummary) |
+| Brick | Offline | [More information.](http://sechow.com/bricks/index.html) |
+| .NET Goat | Offline | [More information.](https://github.com/jerryhoff/WebGoat.NET) |
+| NodeGoat | Offline | [More information.](https://www.owasp.org/index.php/OWASP_Node_js_Goat_Project) |
+| Rails Goat | Offline | [More information.](https://www.owasp.org/index.php/OWASP_Rails_Goat_Project) |
+| Security Shepherd | Offline | [More information.](https://www.owasp.org/index.php/OWASP_Security_Shepherd) |
+| WebGoat | Offline | [More information.](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
+| WebGoatPHP | Offline | [More information.](https://www.owasp.org/index.php/WebGoatPHP) |
+
+As far as my personal pick goes: WebGoat is a favorite of mine. Security Shepherd comes highly recommended to me by long-term (13 years!) OWASP Indianapolis Founder and Leader Carl Sampson ([@chs](https://twitter.com/chs)). Whichever you pick, the most important part is to stick with it. Learn the underlying technology behind the vulnerable web application. Learn how the vulnerabilities work at a technical level. For additional reading in this area, pick up the [Web Application Hacker's Handbook](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470) and the [Browser Hacker's Handbook](https://www.wiley.com/en-us/The+Browser+Hacker%27s+Handbook-p-9781118662090). More resources similar to this, just not authored by OWASP, can be found in the final section of this article.
+
+--- 
+
+### Lab III: Understanding the Order of Volatility
