@@ -15,8 +15,8 @@
 ## Table of Contents
 - [Overview]()
 - [Lab I: Handling Malicious Software](#lab-i-handling-malicious-software)
-- [Lab II: Web Application Security with OWASP]()
-- [Additional Resources for Hands-On Experience]()
+- [Lab II: Web Application Security with OWASP](#lab-ii-web-application-security-with-owasp)
+- [Additional Resources for Hands-On Experience](#additional-hands-on-experience)
 
 #### Additional labs will be added to this document over time, so keep your eye out for more hands on practice.
 
