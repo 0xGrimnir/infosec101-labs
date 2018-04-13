@@ -13,7 +13,7 @@
 --- 
 
 ## Table of Contents
-- [Overview]()
+- [Overview](#overview)
 - [Lab I: Handling Malicious Software](#lab-i-handling-malicious-software)
 - [Lab II: Web Application Security with OWASP](#lab-ii-web-application-security-with-owasp)
 - [Additional Resources for Hands-On Experience](#additional-hands-on-experience)
