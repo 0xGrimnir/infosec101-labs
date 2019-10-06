@@ -4,8 +4,7 @@
 - [Information Security 101: The Reading List](https://github.com/MalwareJedi/infosec101-reading)
 - [Information Security 101: The Community](https://github.com/MalwareJedi/infosec101-community)
 - **[Information Security 101: Hands-On Experience with Information Security](https://github.com/MalwareJedi/infosec101-labs)**
-- Information Security 101: Certifications and Degrees (Coming soon.)
-- Information Security 101: Careers and Career Paths (Coming soon.)
+- Information Security 101: Bug/Vulnerability Hunting (Coming soon.)
 
 #### Follow me on Twitter:
 [![Twitter Follow](https://img.shields.io/twitter/follow/MalwareJedi.svg?style=social&label=Follow%20%40MalwareJedi)](https://twitter.com/MalwareJedi)
@@ -107,10 +106,3 @@ In addition to this, here are some websites worth checking out.
 | Hack the Box | [https://www.hackthebox.eu/](https://www.hackthebox.eu/) | Good practice for penetration testing, and OSCP prep. |
 | PentesterLab | [https://pentesterlab.com/](https://pentesterlab.com/) | Several free vulnerable ISOs from learning specific exploits and techniques |
 | VulnHub | [https://www.vulnhub.com/](https://www.vulnhub.com/) | Lots of virtual machines and labs for practicing your offensive security skills. |
-
-And for those of you with a bit more knowledge, ready to try your hand at real world projects:
-
-| Website | URL | Additional Information |
-| :---: | :---: | :---: |
-| Bug Crowd | [https://www.bugcrowd.com/](https://www.bugcrowd.com/) | |
-| HackerOne | [https://www.hackerone.com/](https://www.bugcrowd.com/) | |
